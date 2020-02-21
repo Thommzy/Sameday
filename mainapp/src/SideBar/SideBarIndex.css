@@ -1,0 +1,115 @@
+.SideBarOverall {
+  background: #017bff;
+  position: fixed;
+  height: 100vh;
+}
+
+.sidebarIcon {
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-right: 15px;
+}
+
+.sidebarIcon i.sidebar.icon {
+  color: #fff;
+}
+
+.DashboardIcon {
+  padding-left: 16px;
+  padding-right: 15px;
+  padding-top: 50px;
+}
+
+.DashboardIcon i.braille.icon {
+  color: #fff;
+}
+
+.historyIcon {
+  padding-top: 31px;
+  padding-left: 11px;
+  padding-right: 15px;
+}
+
+.historyIcon i.history.icon {
+  color: #fff;
+  background: #97c8f8;
+  padding-top: 4px;
+  padding-left: 7px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+}
+
+.historyIcon .ui.red.circular.label {
+  position: absolute;
+  top: 17%;
+  font-size: 5px;
+  left: 45%;
+}
+
+.recordIcon {
+  padding-top: 31px;
+  padding-left: 18px;
+  padding-right: 15px;
+}
+
+.recordIcon i.folder.open.outline.icon {
+  color: #fff;
+}
+
+.recordIcon .ui.red.circular.label {
+  position: absolute;
+  top: 24%;
+  font-size: 5px;
+  left: 45%;
+}
+
+.cartIcon {
+  padding-top: 31px;
+  padding-left: 18px;
+  padding-right: 15px;
+}
+
+.cartIcon i.shopping.cart.icon {
+  color: #fff;
+}
+
+.marketPlaceIcon {
+  padding-top: 31px;
+  padding-left: 18px;
+  padding-right: 15px;
+}
+
+.marketPlaceIcon i.cubes.icon {
+  color: #fff;
+}
+
+.marketPlaceIcon .ui.red.circular.label {
+  position: absolute;
+  top: 37%;
+  font-size: 5px;
+  left: 45%;
+}
+
+.forumIcon {
+  padding-top: 31px;
+  padding-left: 18px;
+  padding-right: 15px;
+}
+
+.forumIcon i.wechat.icon {
+  color: #fff;
+}
+
+.settingsIcon {
+  position: fixed;
+  bottom: 15px;
+  padding-top: 31px;
+  padding-left: 18px;
+  padding-right: 15px;
+}
+
+.settingsIcon i.setting.icon {
+  color: #fff;
+}
+/*# sourceMappingURL=SideBarIndex.css.map */
