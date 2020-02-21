@@ -1,0 +1,20 @@
+.leftSideProductionTitle {
+  position: relative;
+  left: 39px;
+  margin-top: 10px;
+}
+.productionTitle {
+  position: relative;
+  right: 20px;
+  background: #fcfcfc !important;
+}
+
+.rightSideProductionTitle {
+  margin-top: 10px;
+  button.ui.primary.button {
+    font-size: 11px;
+  }
+  i.caret.down.icon {
+    padding-left: 18px;
+  }
+}

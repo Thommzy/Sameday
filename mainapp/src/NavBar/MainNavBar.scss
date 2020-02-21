@@ -1,0 +1,125 @@
+.navBarOverall {
+  margin-top: 13px;
+}
+.logoDiv {
+  img.ui.small.image {
+    height: 45px;
+    width: 155px;
+  }
+}
+
+.profilePic {
+  padding-right: 65px;
+  padding-top: 6px;
+  //   border-left: 1px solid grey;
+  img.ui.small.image {
+    height: 33px;
+    width: 33px;
+    border-radius: 20px;
+    border: 1px solid #0b6ed8;
+  }
+  .divide {
+    position: absolute;
+    border-left: 1px solid #eeeeee;
+    height: 22%;
+    right: 114px;
+    top: 28%;
+  }
+}
+
+.notificationDiv {
+  position: relative;
+  right: 6%;
+  top: 30%;
+  .divide {
+    position: absolute;
+    border-left: 1px solid #eeeeee;
+    height: 56%;
+    right: 104px;
+    top: -6%;
+  }
+  i.list.ul.icon {
+    color: #717171;
+  }
+  .ui.blue.circular.label {
+    font-size: 5px;
+    position: relative;
+    bottom: 25px;
+    left: 12px;
+  }
+}
+
+.marketPlaceDiv {
+  position: relative;
+  right: 14%;
+  top: 30%;
+  .divide {
+    position: absolute;
+    border-left: 1px solid #eeeeee;
+    height: 56%;
+    right: 115px;
+    top: -6%;
+  }
+  i.list.ul.icon {
+    color: #717171;
+  }
+  .ui.blue.circular.label {
+    font-size: 5px;
+    position: relative;
+    bottom: 25px;
+    left: 12px;
+  }
+}
+
+.messageDiv {
+  position: relative;
+  right: 24%;
+  top: 30%;
+  .divide {
+    position: absolute;
+    border-left: 1px solid #eeeeee;
+    height: 56%;
+    right: 96px;
+    top: -6%;
+  }
+  i.list.ul.icon {
+    color: #717171;
+  }
+  .ui.blue.circular.label {
+    font-size: 5px;
+    position: relative;
+    bottom: 25px;
+    left: 12px;
+  }
+}
+#searchDiv {
+  position: relative;
+  right: 14%;
+  top: 30%;
+  .divide {
+    position: absolute;
+    // border-left: 1px solid #eeeeee;
+    height: 56%;
+    right: 96px;
+    top: -6%;
+  }
+  i.search.icon {
+    position: relative;
+    right: 66px;
+    &:hover {
+      right: 146px;
+    }
+  }
+}
+
+// #fullSearch {
+//   opacity: 0;
+//   -webkit-transition: all 500ms ease-in-out;
+//   -moz-transition: all 500ms ease-in-out;
+//   -ms-transition: all 500ms ease-in-out;
+//   -o-transition: all 500ms ease-in-out;
+//   transition: all 500ms ease-in-out;
+//   position: relative;
+//   right: 27%;
+//   top: 30%;
+// }

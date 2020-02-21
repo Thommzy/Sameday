@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { Grid, Image } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import SideBarIndex from "../SideBar/SideBarIndex";
+import MainNavBar from "../NavBar/MainNavBar";
+import ProductionTitle from "../Production/ProductionTitle";
 
 class Homepage extends Component {
   render() {
@@ -13,7 +15,12 @@ class Homepage extends Component {
             </div>
           </Grid.Column>
           <Grid.Column mobile={16} tablet={8} computer={15}>
-            {/* <Image src="https://react.semantic-ui.com/images/wireframe/paragraph.png" /> */}
+            <div>
+              <MainNavBar />
+            </div>
+            <div className="">
+              <ProductionTitle />
+            </div>
           </Grid.Column>
         </Grid>
       </div>

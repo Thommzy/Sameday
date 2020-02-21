@@ -1,0 +1,126 @@
+.navBarOverall {
+  margin-top: 13px;
+}
+
+.logoDiv img.ui.small.image {
+  height: 45px;
+  width: 155px;
+}
+
+.profilePic {
+  padding-right: 65px;
+  padding-top: 6px;
+}
+
+.profilePic img.ui.small.image {
+  height: 33px;
+  width: 33px;
+  border-radius: 20px;
+  border: 1px solid #0b6ed8;
+}
+
+.profilePic .divide {
+  position: absolute;
+  border-left: 1px solid #eeeeee;
+  height: 22%;
+  right: 114px;
+  top: 28%;
+}
+
+.notificationDiv {
+  position: relative;
+  right: 6%;
+  top: 30%;
+}
+
+.notificationDiv .divide {
+  position: absolute;
+  border-left: 1px solid #eeeeee;
+  height: 56%;
+  right: 104px;
+  top: -6%;
+}
+
+.notificationDiv i.list.ul.icon {
+  color: #717171;
+}
+
+.notificationDiv .ui.blue.circular.label {
+  font-size: 5px;
+  position: relative;
+  bottom: 25px;
+  left: 12px;
+}
+
+.marketPlaceDiv {
+  position: relative;
+  right: 14%;
+  top: 30%;
+}
+
+.marketPlaceDiv .divide {
+  position: absolute;
+  border-left: 1px solid #eeeeee;
+  height: 56%;
+  right: 115px;
+  top: -6%;
+}
+
+.marketPlaceDiv i.list.ul.icon {
+  color: #717171;
+}
+
+.marketPlaceDiv .ui.blue.circular.label {
+  font-size: 5px;
+  position: relative;
+  bottom: 25px;
+  left: 12px;
+}
+
+.messageDiv {
+  position: relative;
+  right: 24%;
+  top: 30%;
+}
+
+.messageDiv .divide {
+  position: absolute;
+  border-left: 1px solid #eeeeee;
+  height: 56%;
+  right: 96px;
+  top: -6%;
+}
+
+.messageDiv i.list.ul.icon {
+  color: #717171;
+}
+
+.messageDiv .ui.blue.circular.label {
+  font-size: 5px;
+  position: relative;
+  bottom: 25px;
+  left: 12px;
+}
+
+#searchDiv {
+  position: relative;
+  right: 14%;
+  top: 30%;
+}
+
+#searchDiv .divide {
+  position: absolute;
+  height: 56%;
+  right: 96px;
+  top: -6%;
+}
+
+#searchDiv i.search.icon {
+  position: relative;
+  right: 66px;
+}
+
+#searchDiv i.search.icon:hover {
+  right: 146px;
+}
+/*# sourceMappingURL=MainNavBar.css.map */

@@ -15,18 +15,18 @@ class SideBarIndex extends Component {
         </div>
         <div className="historyIcon">
           <Icon name="history" />
-          <LabelComp numberText="1" />
+          <LabelComp numberText="1" color="red" />
         </div>
         <div className="recordIcon">
           <Icon name="folder open outline" />
-          <LabelComp numberText="1" />
+          <LabelComp numberText="1" color="red" />
         </div>
         <div className="cartIcon">
           <Icon name="shopping cart" />
         </div>
         <div className="marketPlaceIcon">
           <Icon name="cubes" />
-          <LabelComp numberText="1" />
+          <LabelComp numberText="1" color="red" />
         </div>
         <div className="forumIcon">
           <Icon name="wechat" />

@@ -1,15 +1,13 @@
 import React from "react";
 import { Label } from "semantic-ui-react";
 
-const colors = ["red"];
+//const colors = ["red"];
 
-const LabelComp = ({ numberText }) => (
+const LabelComp = ({ numberText, color }) => (
   <div>
-    {colors.map(color => (
-      <Label circular color={color} key={color}>
-        {numberText}
-      </Label>
-    ))}
+    <Label circular color={color} key={color}>
+      {numberText}
+    </Label>
   </div>
 );
 
