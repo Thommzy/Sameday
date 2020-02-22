@@ -45,3 +45,45 @@
     left: 10px;
   }
 }
+
+.MainTableHeaderClass {
+  margin-top: 70px;
+  position: relative;
+  left: 51px;
+}
+
+.allProductionClass {
+  border-bottom: 4px solid #007afe;
+  position: relative;
+  margin-right: 27px;
+  .divide {
+    position: absolute;
+    border-left: 1px solid #eeeeee;
+    height: 56%;
+    left: 129px;
+    top: 12%;
+  }
+}
+
+.awaitingProductionClass {
+  position: relative;
+  margin-right: 75px;
+  .ui.red.circular.label {
+    position: absolute;
+    left: 106%;
+    top: -2%;
+  }
+  .divide {
+    position: absolute;
+    border-left: 1px solid #eeeeee;
+    height: 56%;
+    left: 175px;
+    top: 5%;
+  }
+}
+
+
+.overallRightProdduction {
+  position: relative;
+  right: 126px;
+}
