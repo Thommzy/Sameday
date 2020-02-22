@@ -17,11 +17,12 @@ class ProductionTitle extends Component {
                 <Icon name="caret down" />
               </Button>
             </div>
-            <div className="rightSideProductionTitle">
-              <Button primary>
-                Categories
-                <Icon name="caret down" />
-              </Button>
+            <div className="greySearch">
+              <div className="greySearchIcons">
+                <Icon name="search" />
+                <Icon name="x" />
+              </div>
+              <div></div>
             </div>
           </Menu.Menu>
         </Menu>

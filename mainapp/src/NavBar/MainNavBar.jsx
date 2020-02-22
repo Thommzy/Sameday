@@ -48,7 +48,8 @@ class MainNavBar extends Component {
               </div>
               <div className="profilePic">
                 <div className="divide"></div>
-                <Image src={profile} size="small" />
+                <Image src={profile} size="small" /> Me
+                <Icon name="caret down" />
               </div>
             </Menu.Menu>
           </Menu>

@@ -11,14 +11,41 @@
 }
 
 .rightSideProductionTitle {
-  margin-top: 10px;
+  margin-top: 0px;
+  position: relative;
+  right: 52px;
 }
 
 .rightSideProductionTitle button.ui.primary.button {
   font-size: 11px;
+  height: 39px;
 }
 
 .rightSideProductionTitle i.caret.down.icon {
   padding-left: 18px;
+}
+
+.greySearch {
+  background: #eeeeee;
+  position: relative;
+  right: 48px;
+  border-radius: 6px;
+}
+
+.greySearchIcons {
+  margin-top: 10px;
+  width: 216px;
+  padding-top: 1px;
+  margin-bottom: 3px;
+}
+
+.greySearchIcons i.x.icon {
+  position: relative;
+  left: 167px;
+}
+
+.greySearchIcons i.search.icon {
+  position: relative;
+  left: 10px;
 }
 /*# sourceMappingURL=Production.css.map */

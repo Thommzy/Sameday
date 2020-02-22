@@ -3,6 +3,7 @@ import { Grid } from "semantic-ui-react";
 import SideBarIndex from "../SideBar/SideBarIndex";
 import MainNavBar from "../NavBar/MainNavBar";
 import ProductionTitle from "../Production/ProductionTitle";
+import MainTableHeader from "../Production/MainTableHeader";
 
 class Homepage extends Component {
   render() {
@@ -20,6 +21,7 @@ class Homepage extends Component {
             </div>
             <div className="">
               <ProductionTitle />
+              <MainTableHeader />
             </div>
           </Grid.Column>
         </Grid>
