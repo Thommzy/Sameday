@@ -27,3 +27,150 @@
   font-size: 18px;
   font-weight: 700;
 }
+
+.OrderIdLaneClass {
+  position: absolute;
+  top: 104%;
+  left: 2%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.detBreadCrumb {
+  position: absolute;
+  top: 133%;
+  left: 2%;
+}
+
+.detBreadCrumb {
+  .ui.breadcrumb a.section {
+    color: #007bff;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  i.right.chevron.icon.divider {
+    color: #007bff;
+  }
+}
+
+.breaCrumbsLeft {
+  position: absolute;
+  right: 14%;
+  top: 127%;
+  color: #007bff;
+}
+.numbStat {
+  position: absolute;
+  right: 6%;
+  top: 127%;
+  color: #1e8406;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.detTable {
+  position: absolute;
+  top: 169%;
+  left: 2%;
+  width: 92%;
+  background: #fff;
+  table.ui.basic.table {
+    border-radius: 0px;
+  }
+}
+
+.orderAmt {
+  color: #007bff;
+  font-size: 11px;
+  position: relative;
+  left: 3%;
+}
+
+.orderValue {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.orderDate {
+  font-size: 12px;
+  font-weight: 400;
+}
+.deliveryMeth {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.orderdateIn {
+  color: #007bff;
+  font-size: 11px;
+}
+
+.pickUpOrd {
+  color: #007bff;
+  font-size: 11px;
+}
+
+.dropDownMain {
+  font-size: 7px;
+  position: absolute;
+  left: 36%;
+  top: 42%;
+  .text {
+    color: #1e8306;
+    border-bottom: 1px dotted;
+  }
+}
+
+.rushOptionText {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.rushText {
+  color: #007bff;
+  font-size: 11px;
+  position: relative;
+  left: 3%;
+  i.checkmark.icon {
+    color: white;
+    background: green;
+    border-radius: 25px;
+    height: 21px;
+    width: 21px;
+    font-size: 7px;
+  }
+}
+
+.status {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.statusPending {
+  color: #007bff;
+  font-size: 11px;
+}
+
+.requestedBy {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.requestedDate {
+  color: #007bff;
+  font-size: 11px;
+}
+
+.timeLeftDet {
+  font-size: 10px;
+}
+.pickedDate {
+  color: #007bff;
+  font-size: 11px;
+}
+
+.productDeets {
+  position: absolute;
+  top: 251%;
+  left: 2%;
+}

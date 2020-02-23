@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Route, Switch, withRouter, Redirect } from "react-router-dom";
+import { Route, withRouter } from "react-router-dom";
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
 import Homepage from "./HomePage/Homepage";
