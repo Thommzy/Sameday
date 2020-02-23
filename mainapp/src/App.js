@@ -1,14 +1,19 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
 import Homepage from "./HomePage/Homepage";
+import DetailsMain from "./Details/DetailsMain";
 
 function App() {
   return (
     <div>
-      <Homepage />
+      <Fragment>
+        <Route exact path="/" component={Homepage} />
+        <Route exact path="/details" component={DetailsMain} />
+      </Fragment>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);

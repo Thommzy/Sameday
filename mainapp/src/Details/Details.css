@@ -1,0 +1,33 @@
+.backButton {
+  position: absolute;
+  border-right: 1px solid grey;
+}
+
+.backButton i.arrow.circle.left.icon {
+  color: #007bff;
+  font-size: 18px;
+}
+
+.backButton i.arrow.circle.left.icon:hover {
+  cursor: pointer;
+}
+
+.prodText {
+  position: relative;
+  left: 6%;
+  bottom: 5px;
+  left: 76px;
+}
+
+.prodText img.ui.image {
+  height: 34px;
+}
+
+.prodRealText {
+  position: absolute;
+  top: 68%;
+  left: 11%;
+  font-size: 18px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=Details.css.map */

@@ -73,7 +73,7 @@
 
 .awaitingProductionClass {
   position: relative;
-  margin-right: 75px;
+  margin-right: 64px;
 }
 
 .awaitingProductionClass .ui.red.circular.label {
@@ -92,6 +92,110 @@
 
 .overallRightProdduction {
   position: relative;
-  right: 126px;
+  right: 187px;
+}
+
+.overallRightProdduction button.ui.button {
+  background: #fff;
+  border: 1px solid #000;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.markAsCompltedDiv {
+  position: relative;
+  right: 170px;
+  top: 25%;
+}
+
+.caretDownIcon {
+  position: relative;
+  right: 167px;
+  top: 17%;
+}
+
+.saveButtonDiv {
+  position: relative;
+  right: 155px;
+}
+
+.saveButtonDiv button.ui.button {
+  width: 146%;
+  background: #d0d0d0;
+}
+
+.tableHeaderDetails {
+  position: relative;
+  left: 38px;
+  width: 92%;
+}
+
+.tableHeaderDetails .ui.table {
+  border: none;
+}
+
+.tableHeaderDetails th.one.wide {
+  background: #eeeeee !important;
+}
+
+.tableHeaderDetails th.two.wide {
+  background: #eeeeee !important;
+}
+
+.tableHeaderDetails th.five.wide {
+  background: #eeeeee !important;
+}
+
+.tableHeaderDetails td img.ui.image {
+  height: 33px;
+}
+
+.textBesideImage {
+  position: absolute;
+  font-size: 10px;
+  line-height: normal;
+  left: 35%;
+  top: 46%;
+}
+
+.royalButton button.ui.button {
+  background: #529ded;
+  color: #fff;
+  font-weight: 400;
+}
+
+.deliveryMethod {
+  color: #ff0000;
+  font-weight: 600;
+  position: relative;
+  left: 26%;
+}
+
+.clockIcon {
+  position: absolute;
+  left: 77%;
+}
+
+.deliveryTimetextOne {
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.deliveryTimetextTwo {
+  font-size: 7px;
+  font-weight: 600;
+  color: #1e8406;
+}
+
+.productionStatusTextOne {
+  color: #1e8406;
+}
+
+.productionStatusTextTwo {
+  color: #1e8406;
+}
+
+.rowdetails:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=Production.css.map */

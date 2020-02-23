@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Button } from "semantic-ui-react";
+import { Menu, Button, Header, Icon } from "semantic-ui-react";
 import LabelComp from "../Components/LabelComp";
 
 class MainTableHeader extends Component {
@@ -20,6 +20,15 @@ class MainTableHeader extends Component {
           <Menu.Menu position="right">
             <div className="overallRightProdduction">
               <Button>Print Worksheet</Button>
+            </div>
+            <div className="markAsCompltedDiv">
+              <Header as="h5">Mark as completed</Header>
+            </div>
+            <div className="caretDownIcon">
+              <Icon name="caret down" />
+            </div>
+            <div className="saveButtonDiv">
+              <Button>Save</Button>
             </div>
           </Menu.Menu>
         </Menu>
