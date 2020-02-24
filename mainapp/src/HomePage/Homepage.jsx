@@ -5,6 +5,7 @@ import MainNavBar from "../NavBar/MainNavBar";
 import ProductionTitle from "../Production/ProductionTitle";
 import MainTableHeader from "../Production/MainTableHeader";
 import MainTable from "../Production/MainTable";
+import FooterMain from "../Footer/FooterMain";
 
 class Homepage extends Component {
   render() {
@@ -24,6 +25,7 @@ class Homepage extends Component {
               <ProductionTitle />
               <MainTableHeader />
               <MainTable />
+              <FooterMain />
             </div>
           </Grid.Column>
         </Grid>

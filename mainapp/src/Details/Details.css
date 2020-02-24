@@ -181,5 +181,215 @@
   position: absolute;
   top: 251%;
   left: 2%;
+  width: 93%;
+}
+
+.productDetailsInProductDeets {
+  color: #007bff;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 3px solid #007bff;
+}
+
+.productDetailsInProductDeets .divide {
+  border-left: 1px solid grey;
+  position: absolute;
+  height: 56%;
+  left: 117px;
+  top: 2%;
+}
+
+.historyNotes {
+  position: absolute;
+  left: 15%;
+  font-weight: 600;
+}
+
+.workSheet {
+  position: absolute;
+  right: 39%;
+}
+
+.workSheet .text {
+  color: #1e8406;
+  font-weight: 600;
+}
+
+.workSheet i.dropdown.icon {
+  color: #7e7e7e;
+}
+
+.printBut {
+  position: absolute;
+  right: 30%;
+  bottom: 40%;
+}
+
+.printBut button.ui.button {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 26px;
+  padding-right: 28px;
+}
+
+.addNotes {
+  position: absolute;
+  right: 20%;
+  bottom: 35%;
+}
+
+.addNotes h5.ui.header {
+  margin: 0px;
+  font-size: 11px;
+  position: relative;
+  left: 6px;
+}
+
+.addNotes img.ui.image {
+  height: 16px;
+  position: absolute;
+  right: 76%;
+}
+
+.addNotes button.ui.button {
+  background: #fff;
+  border: 1px solid #d0d0d0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 31px;
+  padding-left: 28px;
+}
+
+.completeProductionButton {
+  position: absolute;
+  right: 1%;
+  bottom: 33%;
+}
+
+.completeProductionButton .text {
+  color: #fff;
+}
+
+.completeProductionButton i.dropdown.icon {
+  color: #fff;
+}
+
+.completeProductionButton .ui.button.floating.labeled.dropdown.icon {
+  background: #007bfe;
+}
+
+.overallDownload {
+  position: absolute;
+  top: 304%;
+  background: #eeeeee;
+  width: 93%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.overallDownload .productDownload {
+  font-weight: 600;
+  position: absolute;
+  left: 7px;
+  top: 27%;
+}
+
+.downloadArtwork {
+  border: 1px solid #007bfe;
+  border-radius: 5px;
+  padding-top: 6px;
+  position: relative;
+  right: 13%;
+  height: 36px;
+  top: 5%;
+  padding-left: 19px;
+  padding-right: 19px;
+  color: #007bfe;
+  font-weight: 600;
+}
+
+.clothOverall {
+  position: absolute;
+  top: 356%;
+}
+
+.ItemTitleOverall {
+  position: absolute;
+  top: 591%;
+  width: 93%;
+  background: #eeeeee;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.itemPart {
+  font-weight: 600;
+}
+
+.detailPart {
+  font-weight: 600;
+}
+
+.productionPart {
+  font-weight: 600;
+}
+
+.colorsPart {
+  font-weight: 600;
+}
+
+.quantityPart {
+  font-weight: 600;
+}
+
+.paidPart {
+  font-weight: 600;
+}
+
+.popSection {
+  position: absolute;
+  top: 630%;
+  width: 93%;
+}
+
+.detailDeetPart {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.productionDeetPart {
+  color: #ff0014;
+  font-weight: 600;
+}
+
+.colorsDeetPart button.ui.button {
+  background: #529ded;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.paidDeetPart i.checkmark.icon {
+  color: white;
+  background: green;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 6px;
+  border-radius: 15px;
+}
+
+.SmallShirt {
+  position: relative;
+  bottom: 18%;
+  width: 48%;
+  left: 72%;
+}
+
+.eye {
+  width: 16px;
+  position: relative;
+  left: 23%;
+  top: 12%;
 }
 /*# sourceMappingURL=Details.css.map */

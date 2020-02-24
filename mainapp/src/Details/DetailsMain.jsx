@@ -7,6 +7,11 @@ import OrderIdLane from "./OrderIdLane";
 import DetailsBreadCrumb from "./DetailsBreadCrumb";
 import Detailstable from "./Detailstable";
 import ProductDetails from "./ProductDetails";
+import DownloadLane from "./DownloadLane";
+import DetailCloth from "./DetailCloth";
+import DetailItem from "./DetailItem";
+import DetailPopUp from "./DetailPopUp";
+import Footer from "../Footer/FooterMain";
 
 class DetailsMain extends Component {
   render() {
@@ -22,7 +27,14 @@ class DetailsMain extends Component {
             <OrderIdLane />
             <DetailsBreadCrumb />
             <Detailstable />
-            <ProductDetails />
+            <div>
+              <ProductDetails />
+              <DownloadLane />
+              <DetailCloth />
+              <DetailItem />
+              <DetailPopUp />
+              <Footer />
+            </div>
           </Grid.Column>
         </Grid>
       </div>

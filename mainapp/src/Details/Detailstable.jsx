@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Table, Image, Icon, Dropdown } from "semantic-ui-react";
+import { Table, Icon, Dropdown } from "semantic-ui-react";
 
 class Detailstable extends Component {
   render() {
