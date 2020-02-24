@@ -1,7 +1,8 @@
 .SideBarOverall {
   background: #017bff;
   position: fixed;
-  height: 100vh;
+  height: 100%;
+  z-index: 1;
 }
 
 .sidebarIcon {
@@ -14,20 +15,28 @@
   color: #fff;
 }
 
+.sidebarIcon i.times.icon {
+  color: #fff;
+}
+
 .DashboardIcon {
   padding-left: 16px;
-  padding-right: 15px;
+  padding-left: 12px;
   padding-top: 50px;
 }
 
-.DashboardIcon i.braille.icon {
-  color: #fff;
+.DashboardIcon img.ui.image {
+  width: 17px;
 }
 
 .historyIcon {
   padding-top: 31px;
   padding-left: 11px;
   padding-right: 15px;
+}
+
+.historyIcon img.ui.image {
+  width: 17px;
 }
 
 .historyIcon i.history.icon {
@@ -42,19 +51,15 @@
 
 .historyIcon .ui.red.circular.label {
   position: absolute;
-  top: 17%;
+  top: 18%;
   font-size: 5px;
-  left: 45%;
+  left: 42%;
 }
 
 .recordIcon {
   padding-top: 31px;
-  padding-left: 18px;
+  padding-left: 12px;
   padding-right: 15px;
-}
-
-.recordIcon i.folder.open.outline.icon {
-  color: #fff;
 }
 
 .recordIcon .ui.red.circular.label {
@@ -64,14 +69,18 @@
   left: 45%;
 }
 
+.recordIcon img.ui.image {
+  width: 17px;
+}
+
 .cartIcon {
   padding-top: 31px;
-  padding-left: 18px;
+  padding-left: 13px;
   padding-right: 15px;
 }
 
-.cartIcon i.shopping.cart.icon {
-  color: #fff;
+.cartIcon img.ui.image {
+  width: 17px;
 }
 
 .marketPlaceIcon {
@@ -84,11 +93,8 @@
   color: #fff;
 }
 
-.marketPlaceIcon .ui.red.circular.label {
-  position: absolute;
-  top: 37%;
-  font-size: 5px;
-  left: 45%;
+.marketPlaceIcon img.ui.image {
+  width: 17px;
 }
 
 .forumIcon {
@@ -97,8 +103,8 @@
   padding-right: 15px;
 }
 
-.forumIcon i.wechat.icon {
-  color: #fff;
+.forumIcon img.ui.image {
+  width: 17px;
 }
 
 .settingsIcon {
@@ -109,7 +115,7 @@
   padding-right: 15px;
 }
 
-.settingsIcon i.setting.icon {
-  color: #fff;
+.settingsIcon img.ui.image {
+  width: 17px;
 }
 /*# sourceMappingURL=SideBarIndex.css.map */

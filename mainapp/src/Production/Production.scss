@@ -186,3 +186,91 @@
     cursor: pointer;
   }
 }
+
+$Small: 1150px;
+$medium_Small: 1250px;
+
+@media (min-width: $Small) and (max-width: $medium_Small) {
+  .textBesideImage {
+    position: absolute;
+    font-size: 6px;
+    line-height: normal;
+    left: 36%;
+    top: 48%;
+  }
+  .clockIcon {
+    position: absolute;
+    left: 75%;
+  }
+}
+$Small: 1050px;
+$medium_Small: 1149px;
+
+@media (min-width: $Small) and (max-width: $medium_Small) {
+  .textBesideImage {
+    position: absolute;
+    font-size: 4px;
+    line-height: normal;
+    left: 37%;
+    top: 48%;
+  }
+  .clockIcon {
+    position: absolute;
+    left: 74%;
+  }
+}
+
+$breakpoint-MobileLarge: 1024px;
+@media (max-width: $breakpoint-MobileLarge) {
+  .MainTableHeaderClass {
+    margin-top: 70px;
+    position: relative;
+    left: 77px;
+  }
+
+  .productionTitle {
+    position: relative;
+    right: -8px;
+    background: #fcfcfc !important;
+  }
+  .tableHeaderDetails {
+    position: relative;
+    left: 4px;
+    width: 78%;
+  }
+
+  .textBesideImage {
+    position: absolute;
+    font-size: 4px;
+    line-height: normal;
+    left: 39%;
+    top: 46%;
+  }
+
+  .tableHeaderDetails {
+    position: relative;
+    left: 4px;
+    width: 92%;
+    .ui.table {
+      border: none;
+    }
+    th.one.wide {
+      background: #eeeeee !important;
+    }
+    th.two.wide {
+      background: #eeeeee !important;
+    }
+    th.five.wide {
+      background: #eeeeee !important;
+    }
+    td {
+      img.ui.image {
+        height: 23px;
+      }
+    }
+  }
+  .clockIcon {
+    position: absolute;
+    left: 76%;
+  }
+}

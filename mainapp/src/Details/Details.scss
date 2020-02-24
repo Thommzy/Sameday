@@ -369,3 +369,114 @@
   left: 23%;
   top: 12%;
 }
+
+$breakpoint-MobileLarge: 1024px;
+@media (max-width: $breakpoint-MobileLarge) {
+  .backButton {
+    position: absolute;
+    border-right: 1px solid grey;
+    left: 6%;
+    padding-right: 7px;
+    i.arrow.circle.left.icon {
+      color: #007bff;
+      font-size: 18px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .prodText {
+    position: relative;
+    left: 6%;
+    bottom: 5px;
+    left: 112px;
+  }
+
+  .prodRealText {
+    position: absolute;
+    top: 68%;
+    left: 18%;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .OrderIdLaneClass {
+    position: absolute;
+    top: 104%;
+    left: 6%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .detBreadCrumb {
+    position: absolute;
+    top: 133%;
+    left: 6%;
+  }
+  .breaCrumbsLeft {
+    position: absolute;
+    right: 19%;
+    top: 127%;
+    color: #007bff;
+  }
+  .detTable {
+    position: absolute;
+    top: 169%;
+    left: 6%;
+    width: 88%;
+    background: #fff;
+  }
+  .productDeets {
+    position: absolute;
+    top: 251%;
+    left: 7%;
+    width: 88%;
+  }
+  .addNotes {
+    position: absolute;
+    right: 26%;
+    bottom: 31%;
+  }
+  .printBut {
+    position: absolute;
+    right: 39%;
+    bottom: 40%;
+  }
+  .workSheet {
+    position: absolute;
+    right: 51%;
+  }
+  .clothOverall {
+    position: absolute;
+    top: 355%;
+    left: 6%;
+  }
+  .overallDownload {
+    position: absolute;
+    top: 304%;
+    background: #eeeeee;
+    width: 88%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 6%;
+  }
+  .ItemTitleOverall {
+    position: absolute;
+    top: 591%;
+    width: 87%;
+    background: #eeeeee;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    left: 7%;
+  }
+  .popSection {
+    position: absolute;
+    top: 630%;
+    width: 87%;
+    left: 7%;
+  }
+  .SmallShirt {
+    position: relative;
+    bottom: 18%;
+    width: 70%;
+    left: 72%;
+  }
+}

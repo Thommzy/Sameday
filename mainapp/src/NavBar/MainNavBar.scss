@@ -113,14 +113,42 @@
   }
 }
 
-// #fullSearch {
-//   opacity: 0;
-//   -webkit-transition: all 500ms ease-in-out;
-//   -moz-transition: all 500ms ease-in-out;
-//   -ms-transition: all 500ms ease-in-out;
-//   -o-transition: all 500ms ease-in-out;
-//   transition: all 500ms ease-in-out;
-//   position: relative;
-//   right: 27%;
-//   top: 30%;
-// }
+$Small: 1150px;
+$medium_Small: 1250px;
+
+@media (min-width: $Small) and (max-width: $medium_Small) {
+  .profilePic {
+    padding-right: 65px;
+    padding-top: 6px;
+    //   border-left: 1px solid grey;
+    img.ui.small.image {
+      height: 33px;
+      width: 33px;
+      border-radius: 20px;
+      border: 1px solid #0b6ed8;
+    }
+    .divide {
+      position: absolute;
+      border-left: 1px solid #eeeeee;
+      height: 7%;
+      right: 114px;
+      top: 9%;
+    }
+  }
+}
+
+$breakpoint-MobileLarge: 1024px;
+@media (max-width: $breakpoint-MobileLarge) {
+  .navBarOverall {
+    margin-top: 13px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 3%;
+  }
+
+  .productionTitle {
+    position: relative;
+    right: -8px;
+    background: #fcfcfc !important;
+  }
+}

@@ -73,4 +73,16 @@
   position: relative;
   margin-top: 85px;
 }
+
+@media (max-width: 1024px) {
+  .footerOverall {
+    position: absolute;
+    top: 1000%;
+    left: 0px;
+    background: #f4f7f6;
+    width: 103%;
+    padding-top: 57px;
+    padding-bottom: 94px;
+  }
+}
 /*# sourceMappingURL=FooterMain.css.map */

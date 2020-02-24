@@ -21,7 +21,7 @@ class DetailPopUp extends Component {
         <Grid>
           <Grid.Column mobile={16} tablet={8} computer={2}>
             <div className="itemPart">
-              <Checkbox label="#232JODJSDKN2" />
+              <Checkbox label="#232JODJ" />
             </div>
           </Grid.Column>
           <Grid.Column mobile={16} tablet={8} computer={1}>

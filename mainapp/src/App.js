@@ -4,6 +4,7 @@ import "./App.css";
 import "semantic-ui-css/semantic.min.css";
 import Homepage from "./HomePage/Homepage";
 import DetailsMain from "./Details/DetailsMain";
+import Sida from "./Test/sida";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Fragment>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/details" component={DetailsMain} />
+        <Route exact path="/sida" component={Sida} />
       </Fragment>
     </div>
   );

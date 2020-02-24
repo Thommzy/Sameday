@@ -124,4 +124,38 @@
 #searchDiv i.search.icon:hover {
   right: 146px;
 }
+
+@media (min-width: 1150px) and (max-width: 1250px) {
+  .profilePic {
+    padding-right: 65px;
+    padding-top: 6px;
+  }
+  .profilePic img.ui.small.image {
+    height: 33px;
+    width: 33px;
+    border-radius: 20px;
+    border: 1px solid #0b6ed8;
+  }
+  .profilePic .divide {
+    position: absolute;
+    border-left: 1px solid #eeeeee;
+    height: 7%;
+    right: 114px;
+    top: 9%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navBarOverall {
+    margin-top: 13px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 3%;
+  }
+  .productionTitle {
+    position: relative;
+    right: -8px;
+    background: #fcfcfc !important;
+  }
+}
 /*# sourceMappingURL=MainNavBar.css.map */

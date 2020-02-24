@@ -18,14 +18,16 @@ class Homepage extends Component {
             </div>
           </Grid.Column>
           <Grid.Column mobile={16} tablet={15} computer={15}>
-            <div>
-              <MainNavBar />
-            </div>
             <div className="">
-              <ProductionTitle />
-              <MainTableHeader />
-              <MainTable />
-              <FooterMain />
+              <div>
+                <MainNavBar />
+              </div>
+              <div className="">
+                <ProductionTitle />
+                <MainTableHeader />
+                <MainTable />
+                <FooterMain />
+              </div>
             </div>
           </Grid.Column>
         </Grid>
