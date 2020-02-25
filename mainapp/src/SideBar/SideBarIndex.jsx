@@ -4,9 +4,11 @@ import { Icon, Image } from "semantic-ui-react";
 import LabelComp from "../Components/LabelComp";
 import groupa from "../Images/groupa.png";
 import timeleft from "../Images/time_left.png";
+import fulltimeleft from "../Images/full_time_left.png";
 import sidefile from "../Images/side_file.png";
 import sideshop from "../Images/side_shopping_cart.png";
 import supply from "../Images/supply.png";
+import fullsupply from "../Images/supply_full.png";
 import chat from "../Images/chat.png";
 import setting from "../Images/settings.png";
 
@@ -15,7 +17,7 @@ class SideBarIndex extends Component {
     shown: true
   };
   render() {
-    return this.state.shown == true ? (
+    return this.state.shown === true ? (
       <div className="SideBarOverall">
         <div
           className="sidebarIcon"
@@ -48,34 +50,42 @@ class SideBarIndex extends Component {
         </div>
       </div>
     ) : (
-      <div className="SideBarOverall">
+      <div className="fullSideBarOverall">
         <div
-          className="sidebarIcon"
+          className="fullSidebarIcon"
           onClick={() => this.setState({ shown: !this.state.shown })}
         >
           <Icon name="times" />
         </div>
-        <div className="DashboardIcon">
+        <div className="fullDashboardIcon">
           <Image src={groupa} />
-          DashboardDashboardDashboardDashboard
+          <div className="dashBoardText">Dashboard</div>
         </div>
-        <div className="historyIcon">
-          <Image src={timeleft} />
+        <div className="fullHistoryIcon">
+          <Image src={fulltimeleft} />
+          <div className="historyIconText">Operations</div>
+          <Icon name="caret down" />
         </div>
-        <div className="recordIcon">
+        <div className="fullRecordIcon">
           <Image src={sidefile} />
+          <div className="recordIconText">Records</div>
         </div>
-        <div className="cartIcon">
+        <div className="fullCartIcon">
           <Image src={sideshop} />
+          <div className="cartIconText">Supply Store</div>
         </div>
-        <div className="marketPlaceIcon">
-          <Image src={supply} />
+        <div className="fullMarketPlaceIcon">
+          <Image src={fullsupply} />
+          <div className="marketIconText">Market Place </div>
         </div>
-        <div className="forumIcon">
+        <div className="fullForumIcon">
           <Image src={chat} />
+          <div className="forumIconText">Forums</div>
+          <LabelComp numberText="1" color="red" />
         </div>
-        <div className="settingsIcon">
+        <div className="fullSettingsIcon">
           <Image src={setting} />
+          <div className="settingsIconText">Settings</div>
         </div>
       </div>
     );

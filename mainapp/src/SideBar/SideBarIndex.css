@@ -5,6 +5,14 @@
   z-index: 1;
 }
 
+.fullSideBarOverall {
+  background: #017bff;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  width: 21%;
+}
+
 .sidebarIcon {
   padding-top: 12px;
   padding-left: 16px;
@@ -19,6 +27,23 @@
   color: #fff;
 }
 
+.fullSidebarIcon {
+  padding-top: 31px;
+  padding-left: 16px;
+  padding-right: 15px;
+  font-size: 25px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 17px;
+}
+
+.fullSidebarIcon i.sidebar.icon {
+  color: #fff;
+}
+
+.fullSidebarIcon i.times.icon {
+  color: #fff;
+}
+
 .DashboardIcon {
   padding-left: 16px;
   padding-left: 12px;
@@ -27,6 +52,26 @@
 
 .DashboardIcon img.ui.image {
   width: 17px;
+}
+
+.fullDashboardIcon {
+  padding-left: 16px;
+  padding-left: 12px;
+  padding-top: 26px;
+  margin-bottom: 20px;
+}
+
+.fullDashboardIcon img.ui.image {
+  width: 17px;
+}
+
+.dashBoardText {
+  position: absolute;
+  left: 23%;
+  top: 13%;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .historyIcon {
@@ -56,6 +101,53 @@
   left: 42%;
 }
 
+.fullHistoryIcon {
+  padding-top: 31px;
+  padding-left: 11px;
+  padding-right: 15px;
+  background: #cee6ff;
+}
+
+.fullHistoryIcon img.ui.image {
+  width: 17px;
+  position: relative;
+  bottom: 16px;
+}
+
+.fullHistoryIcon i.history.icon {
+  color: #fff;
+  background: #97c8f8;
+  padding-top: 4px;
+  padding-left: 7px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+}
+
+.fullHistoryIcon .ui.red.circular.label {
+  position: absolute;
+  top: 18%;
+  font-size: 5px;
+  left: 42%;
+}
+
+.fullHistoryIcon .historyIconText {
+  position: absolute;
+  top: 21%;
+  left: 23%;
+  font-size: 17px;
+  color: #196bd8;
+  font-weight: 600;
+}
+
+.fullHistoryIcon i.caret.down.icon {
+  color: white;
+  position: absolute;
+  left: 86%;
+  top: 20%;
+  font-size: 22px;
+}
+
 .recordIcon {
   padding-top: 31px;
   padding-left: 12px;
@@ -73,6 +165,32 @@
   width: 17px;
 }
 
+.fullRecordIcon {
+  padding-top: 20px;
+  padding-left: 12px;
+  padding-right: 15px;
+}
+
+.fullRecordIcon .ui.red.circular.label {
+  position: absolute;
+  top: 24%;
+  font-size: 5px;
+  left: 45%;
+}
+
+.fullRecordIcon img.ui.image {
+  width: 17px;
+}
+
+.fullRecordIcon .recordIconText {
+  position: absolute;
+  left: 24%;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  top: 29%;
+}
+
 .cartIcon {
   padding-top: 31px;
   padding-left: 13px;
@@ -81,6 +199,25 @@
 
 .cartIcon img.ui.image {
   width: 17px;
+}
+
+.fullCartIcon {
+  padding-top: 31px;
+  padding-left: 13px;
+  padding-right: 15px;
+}
+
+.fullCartIcon img.ui.image {
+  width: 17px;
+}
+
+.fullCartIcon .cartIconText {
+  position: absolute;
+  left: 24%;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  top: 36%;
 }
 
 .marketPlaceIcon {
@@ -97,6 +234,29 @@
   width: 17px;
 }
 
+.fullMarketPlaceIcon {
+  padding-top: 31px;
+  padding-left: 18px;
+  padding-right: 15px;
+}
+
+.fullMarketPlaceIcon i.cubes.icon {
+  color: #fff;
+}
+
+.fullMarketPlaceIcon img.ui.image {
+  width: 17px;
+}
+
+.fullMarketPlaceIcon .marketIconText {
+  position: absolute;
+  left: 24%;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  top: 43%;
+}
+
 .forumIcon {
   padding-top: 31px;
   padding-left: 18px;
@@ -105,6 +265,32 @@
 
 .forumIcon img.ui.image {
   width: 17px;
+}
+
+.fullForumIcon {
+  padding-top: 31px;
+  padding-left: 18px;
+  padding-right: 15px;
+}
+
+.fullForumIcon img.ui.image {
+  width: 17px;
+}
+
+.fullForumIcon .forumIconText {
+  position: absolute;
+  left: 24%;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  top: 49%;
+}
+
+.fullForumIcon .ui.red.circular.label {
+  position: relative;
+  bottom: 24px;
+  font-size: 8px;
+  left: 170px;
 }
 
 .settingsIcon {
@@ -117,5 +303,157 @@
 
 .settingsIcon img.ui.image {
   width: 17px;
+}
+
+.fullSettingsIcon {
+  position: fixed;
+  bottom: 15px;
+  padding-top: 31px;
+  padding-left: 18px;
+  padding-right: 15px;
+}
+
+.fullSettingsIcon img.ui.image {
+  width: 17px;
+}
+
+.fullSettingsIcon .settingsIconText {
+  position: absolute;
+  left: 117%;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  top: 63%;
+}
+
+@media (max-width: 1024px) {
+  .dashBoardText {
+    position: absolute;
+    left: 23%;
+    top: 15%;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .fullHistoryIcon {
+    padding-top: 31px;
+    padding-left: 11px;
+    padding-right: 15px;
+    background: #cee6ff;
+  }
+  .fullHistoryIcon img.ui.image {
+    width: 17px;
+    position: relative;
+    bottom: 16px;
+  }
+  .fullHistoryIcon i.history.icon {
+    color: #fff;
+    background: #97c8f8;
+    padding-top: 4px;
+    padding-left: 7px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+  }
+  .fullHistoryIcon .ui.red.circular.label {
+    position: absolute;
+    top: 18%;
+    font-size: 5px;
+    left: 42%;
+  }
+  .fullHistoryIcon .historyIconText {
+    position: absolute;
+    top: 22%;
+    left: 23%;
+    font-size: 17px;
+    color: #196bd8;
+    font-weight: 600;
+  }
+  .fullHistoryIcon i.caret.down.icon {
+    color: white;
+    position: absolute;
+    left: 86%;
+    top: 22%;
+    font-size: 22px;
+  }
+  .fullRecordIcon {
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-right: 15px;
+  }
+  .fullRecordIcon .ui.red.circular.label {
+    position: absolute;
+    top: 24%;
+    font-size: 5px;
+    left: 45%;
+  }
+  .fullRecordIcon img.ui.image {
+    width: 17px;
+  }
+  .fullRecordIcon .recordIconText {
+    position: absolute;
+    left: 24%;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    top: 30%;
+  }
+  .fullCartIcon {
+    padding-top: 31px;
+    padding-left: 13px;
+    padding-right: 15px;
+  }
+  .fullCartIcon img.ui.image {
+    width: 17px;
+  }
+  .fullCartIcon .cartIconText {
+    position: absolute;
+    left: 24%;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    top: 38%;
+  }
+  .fullMarketPlaceIcon {
+    padding-top: 31px;
+    padding-left: 18px;
+    padding-right: 15px;
+  }
+  .fullMarketPlaceIcon i.cubes.icon {
+    color: #fff;
+  }
+  .fullMarketPlaceIcon img.ui.image {
+    width: 17px;
+  }
+  .fullMarketPlaceIcon .marketIconText {
+    position: absolute;
+    left: 24%;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    top: 45%;
+  }
+  .fullForumIcon {
+    padding-top: 31px;
+    padding-left: 18px;
+    padding-right: 15px;
+  }
+  .fullForumIcon img.ui.image {
+    width: 17px;
+  }
+  .fullForumIcon .forumIconText {
+    position: absolute;
+    left: 24%;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    top: 51%;
+  }
+  .fullForumIcon .ui.red.circular.label {
+    position: relative;
+    bottom: 24px;
+    font-size: 8px;
+    left: 170px;
+  }
 }
 /*# sourceMappingURL=SideBarIndex.css.map */
